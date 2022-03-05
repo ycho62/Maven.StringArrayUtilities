@@ -189,8 +189,7 @@ public class StringArrayUtils {
 
             }
             count++;
-        }String[] flist = new String[count];
-        flist = Arrays.copyOfRange(nlist, 0, count);
+        }String[] flist = Arrays.copyOfRange(nlist, 0, count);
         return flist;
     }
 
